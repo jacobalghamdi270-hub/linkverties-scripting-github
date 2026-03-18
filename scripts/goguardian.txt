@@ -1,0 +1,10 @@
+/* 🛡️ LINKVERTIES HUB | FORCE-ALLOW UTILITY */
+/* Purpose: Protect tabs from being closed by filters */
+
+console.log("Force-Allow Utility Loading...");
+
+window.onbeforeunload = function() { 
+    return "Are you sure you want to leave? Linkverties Hub is protecting this tab."; 
+};
+
+alert("✅ FORCE-ALLOW ACTIVE: This tab is now protected from automatic closing!");
