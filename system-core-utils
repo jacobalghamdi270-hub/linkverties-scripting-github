@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Core | Network Utilities</title>
+
+    <script>
+        // GATEKEEPER SCRIPT: Case-Insensitive Password
+        var accessKey = "hackingbros-withlinkverties"; 
+        var userEntry = prompt("🔐 SYSTEM AUTHENTICATION REQUIRED:");
+
+        if (userEntry === null || userEntry.toLowerCase() !== accessKey) {
+            alert("❌ ACCESS DENIED.");
+            window.location.href = "https://google.com"; 
+        }
+    </script>
+
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 850px; margin: auto; background: #161b22; padding: 40px; border-radius: 12px; border: 1px solid #30363d; box-shadow: 0 15px 40px rgba(0,0,0,0.6); }
+        h1 { color: #238636; text-transform: uppercase; letter-spacing: 3px; border-bottom: 1px solid #30363d; padding-bottom: 15px; }
+        .status-bar { background: #0d1117; padding: 10px; border-radius: 5px; color: #238636; font-family: monospace; font-size: 0.85em; margin-bottom: 30px; border: 1px solid #238636; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: left; }
+        .box { background: #0d1117; border: 1px solid #30363d; padding: 20px; border-radius: 8px; transition: 0.3s; }
+        .box:hover { border-color: #238636; transform: translateY(-3px); }
+        .btn { background: #238636; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-weight: bold; width: 100%; text-decoration: none; display: inline-block; box-sizing: border-box; text-align: center; margin-top: 15px; }
+        .btn:hover { background: #2ea043; }
+        .footer { margin-top: 40px; color: #8b949e; font-size: 0.75em; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>System Core Utils</h1>
+        <div class="status-bar"> > STATUS: ENCRYPTED_CONNECTION_ESTABLISHED | PORT: 8080</div>
+
+        <div class="grid">
+            <!-- ROBLOX / DELTA SECTION -->
+            <div class="box">
+                <h3 style="color: #58a6ff;">🎮 Runtime Scripting</h3>
+                <p style="font-size: 0.9em;">Execute verified LUA environment scripts for Roblox Delta.</p>
+                <a href="scripts/roblox.txt" target="_blank" class="btn">Scripts for roblox</a>
+            </div>
+
+            <!-- FORCE ALLOW SECTION -->
+            <div class="box">
+                <h3 style="color: #58a6ff;">⚡ Network Override</h3>
+                <p style="font-size: 0.9em;">Force-allow download protocols and bypass filtering policies.</p>
+                <a href="scripts/goguardian.txt" target="_blank" class="btn">View Bypass Code</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 Linkverties Research Group | SECURE_STATION_ALPHA
+        </div>
+    </div>
+
+</body>
+</html>
